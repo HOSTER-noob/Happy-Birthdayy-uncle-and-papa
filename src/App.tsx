@@ -231,7 +231,7 @@ function App() {
             <div className="lock-icon"><LockKeyhole size={30} /></div>
             <div className="section-kicker">CLASSIFIED FAMILY BUSINESS</div>
             <h2 id="vault-heading">THE SECRET<br />VAULT</h2>
-            <p>There is one more surprise hiding in here. Hint: enter your favorite food name (Misal Pav).</p>
+            <p>There is one more surprise hiding in here. Hint: enter your favorite food name.</p>
             <form className="vault-form" onSubmit={unlockVault}>
               <input type="password" value={password} onChange={(event) => { setPassword(event.target.value); setPasswordError(false); }} placeholder="ENTER THE SECRET PASSWORD" aria-label="Secret password" />
               <button className="red-button" type="submit">UNLOCK <LockKeyhole size={14} /></button>
